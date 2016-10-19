@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/background3.jpg") ;
+    background-repeat: repeat;
+	background-size: cover;
+	width: 100%;
+	
+}
+
+header{
+	width: 100%;
+	
+}
+
+
+.logo{
+	background-image: url('../images/logo.jpg');
+	background-size: cover;
+	width: 90%;
+	margin:0 auto 0;
+	height: 200px;
+	
+}
+
+#menu-bar{
+	width: 90%;
+	margin: 0 auto 0;
+	
+}
+
+#menu-bar ul{
+	width: 100%;
+}
+
+#menu-bar ul li{
+	width: 10%;
+	height: 50px;
+	margin-right: 5%;
+	text-align: center;
+	
+}
+
+#menu-bar ul li a:link{
+  text-shadow: 3px 1px 2px #000000;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 1em;
+  color: #E7E5E5;
+}
+
+
+/* visited link */
+#menu-bar ul li a:visited {
+    color: white;
+}
+
+/* mouse over link */
+#menu-bar ul li a:hover {
+	
+	background-color: gray;
+	border-radius: 10px;
+	font-size: 2em
+	width: 90%;
+    color: #000;
+	 text-shadow: 2px 2px 2px white;
+}
+
+/* selected link */
+#menu-bar ul li a:active {
+    color: firebrick;
+}
+
+
+
+.outter-left{
+	margin-top: 4%;
+	margin-left: 4%;
+	width: 22%;
+}
+
+.inner-left{
+	height: 300px;
+}
+
+.outter-center{
+	width: 70%;
+	margin-top: 4%;
+
+}
+
+.inner-center{
+	height: 600px;
+}
