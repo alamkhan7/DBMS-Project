@@ -1,4 +1,4 @@
-DBMS Project
-HABIBULLAH
-Alam Khan
-Suliman 
+DBMS Project  
+HABIBULLAH,
+Alam Khan, 
+Suliman, 
