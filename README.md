@@ -1,4 +1,4 @@
-# <center> DBMS Project </center>
+# <p align="center"> DBMS Project </p>
 #  Group Members:
 HABIBULLAH <br/>
 Unixian@outlook.com
