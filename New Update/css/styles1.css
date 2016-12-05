@@ -1,0 +1,96 @@
+
+body{
+    background-image: url("../images/bg0.jpg") ;
+    background-repeat: repeat;
+}
+
+.header{
+	width: 100%;
+}
+.logo{
+	min-height: 150px;
+}
+
+.outter-nav{
+	background-color: #c68c53;
+	border-color: #c68c53 ;
+	border-radius: 15px 50px 30px;
+}
+
+
+.inner-nav{
+	background-color: #c68c53;
+	border-radius: 15px 50px;
+}
+
+.inner-nav li {
+	border: 2px solid white;
+    border-radius: 15px 50px;	
+}
+
+
+/* unvisited link */
+.inner-nav li a:link {
+	color: red;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 15px 50px;
+	
+}
+/* visited link */
+.inner-nav li a:visited {
+	color: white;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 15px 50px;
+	background-color: #604020;
+	
+}
+
+/* mouse over link */
+.inner-nav li a:hover{
+	color: #ffbb33;
+	
+}
+/* selected link */
+.inner-nav li a:active {
+	color: black;
+	background-color: #734d26
+}
+
+@media only screen and (min-width: 1100px){
+	
+	.navigation-container{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1230px;
+	}
+
+	.main-content{
+		width: 1160px;
+	}
+
+	.first-row{
+		margin-right: -50px;
+		margin-left: -50px;
+
+	}
+	
+}
+
+ .noBullets{
+    	list-style:none;
+		padding:auto;
+	}
+    
+	#last-footer h5{
+		text-align:center;
+	}
+	.footlinks li a{
+	text-align:center;
+	margin-left:5px ;
+	}
+	.subscribe li{padding:3px;}
+
+
+
